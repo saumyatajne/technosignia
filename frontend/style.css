@@ -1,0 +1,42 @@
+.container {
+    /* Add your desired background color here */
+    background-color: #f2f2f2;
+
+    /* Add padding, border, etc. as needed */
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.container input[type=submit]:hover {
+    /* Replace the solid background color with a gradient */
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}
+
+/* The rest of your CSS remains the same */
+.container input[type=text], input[type=password], input[type=submit], select {
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container input[type=submit] {
+    cursor: pointer;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.container select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.container .gender {
+    margin-top: 10px;
+}
